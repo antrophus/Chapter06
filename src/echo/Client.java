@@ -27,6 +27,7 @@ public class Client {
 		
 		bw.write("안녕");
 		bw.newLine();
+		bw.flush();// bufferedWriter에 자료가 꽉 차지 않아도 전송해달라.
 	}
 
 }
